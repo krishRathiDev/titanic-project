@@ -1,0 +1,21 @@
+Project: Titanic Survival Predictor
+Tools: Python, Pandas, Scikit-learn, Random Forest
+
+Description:
+Is project me Titanic dataset ka use karke ek Random Forest 
+Classifier model banaya gaya, jo passenger ke age, gender, 
+class, fare, etc. ke basis par predict karta hai ki wo 
+survive karega ya nahi.
+
+Steps:
+1. Data load kiya (Titanic dataset)
+2. Missing values fill kiye (age, embarked)
+3. Categorical data (sex, embarked) ko numbers me convert kiya
+4. Data ko train/test me split kiya (80/20)
+5. Random Forest model train kiya
+6. Accuracy check ki
+
+Result:
+- Accuracy: 82.12%
+- Sex, Fare aur Pclass sabse important features the
+- Sample passenger (Male, 25 yrs, 3rd class) ka prediction: Died
